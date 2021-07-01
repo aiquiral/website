@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p{
+	font-family: 'Poppins', sans-serif;
+	opacity: 0.8;
+}
+
+h1{
+	font-size: 1rem;
+}
+
+h2{
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+main {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  min-height: 85vh;
+  max-height: 85vh;
+  background: white;
+  width: 90%;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.2));
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(3rem); 
+  overflow: scroll;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.2));
+  border-radius: 2rem;
+  z-index: 3;
+}
+
+.status {
+  margin-bottom: 0.1rem;
+  padding: 1rem;
+}
+
+.user {
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.games{
+	margin: 1rem 2rem;
+  	flex-direction: column;
+  	justify-content: space-between;
+	overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img {
+	display: flex;
+  align-items: center;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  margin-right: 0.7rem;
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.05)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 9%;
+  left: 9%;
+}
+.circle2 {
+  bottom: 9%;
+  right: 9%;
+}
+
+.mail{
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mailat {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding-right: 0.5rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+  border-radius: 0.7rem;
+  padding-right: 1rem;
+  margin: 0.5rem;
+}
+
+.email h1 {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 800px) {
+
+.glass {
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 55%;
+}
+
+
+
+}

@@ -255,7 +255,7 @@ h6 { font-size: 16px; }
 	float: left;
 	clear: both;
 	background-color: #fff;
-	padding: 20px 0px;
+	padding: 5px 0px;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 }
 .shane_tm_mobile_menu .topbar_in{
@@ -390,10 +390,10 @@ h6 { font-size: 16px; }
 	color: #000;
 	display: inline-block;
 	padding: 4px 0px;
-	font-family: "Montserrat";
+	font-family: "Montserrat",sans-serif;
 	font-weight: 500;
 }
-.shane_tm_mobile_menu .logo img{max-width: 100px;}
+.shane_tm_mobile_menu .logo img{max-width: 59px;}
 
 /*---------------------------------------------------*/
 /*	03) SHANE TOPBAR
@@ -416,7 +416,7 @@ h6 { font-size: 16px; }
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 25px 50px;
+	padding: 10px 80px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -426,12 +426,12 @@ h6 { font-size: 16px; }
 }
 .shane_tm_topbar .topbar_inner.opened{
 	background-color: #fff;
-	padding: 20px 50px;
+	padding: 5px 100px;
 	box-shadow: 0px 0px 30px rgba(0,0,0,.1);
 }
 .shane_tm_topbar .topbar_inner .logo a{display: inline-block;}
 .shane_tm_topbar .topbar_inner .logo img{
-	max-width: 70px;
+	max-width: 59px;
 }
 .shane_tm_topbar .menu ul{
 	margin: 0px;
@@ -458,8 +458,8 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.shane_tm_topbar .menu ul li.current a{color: #000;}
-.shane_tm_topbar .menu ul li a:hover{color: #000;}
+.shane_tm_topbar .menu ul li.current a{color: #000000;}
+.shane_tm_topbar .menu ul li a:hover{color: #000000;}
 
 
 /*---------------------------------------------------*/
@@ -516,7 +516,7 @@ h6 { font-size: 16px; }
 .shane_tm_hero .content h3{
 	position: relative;
 	font-size: 72px;
-	font-family: "Montserrat";
+	font-family: "Montserrat",sans-serif;
 	text-transform: uppercase;
 	font-weight: 900;
 	color: #000;
@@ -530,9 +530,9 @@ h6 { font-size: 16px; }
 	padding-left: 2px;
 }
 .shane_tm_hero .content .job{
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 17px;
-	font-family: "Roboto";
+	font-family: "Roboto",sans-serif;
 	margin-bottom: 30px;
 	float: left;
 	position: relative;
@@ -1080,10 +1080,11 @@ body.loaded .overlay_effect:after{
 	text-decoration: none;
 	color: #fff;
 	background-color: transparent;
-	display: inline-block;
-	padding: 13px 48px;
-	border: 2px solid #fff;
+	/* display: inline-block; */
+	padding: 5px 18px;
+	/* border: 2px solid #fff; */
 	font-family: "Poppins";
+	font-size: 3rem;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1096,42 +1097,6 @@ body.loaded .overlay_effect:after{
 	background-color: #fff;
 }
 
-/*---------------------------------------------------*/
-/*	09) SHANE PARTNERS
-/*---------------------------------------------------*/
-
-.shane_tm_partners{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.shane_tm_partners .partners_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding: 90px 0px;
-}
-.shane_tm_partners .partners_inner ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.shane_tm_partners .partners_inner ul li{
-	margin: 0px;
-	opacity: .5;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.shane_tm_partners .partners_inner ul li{
-	max-width: 200px;
-	max-height: 200px;
-}
-.shane_tm_partners .partners_inner ul li:hover{opacity: 1;}
 
 /*---------------------------------------------------*/
 /*	10) SHANE TESTIMONIALS
@@ -1142,8 +1107,8 @@ body.loaded .overlay_effect:after{
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #f9f9f9;
-	padding: 150px 0px;
+	background-color: #ffffff;
+	padding: 150px 0px 50px 0px;
 }
 .shane_tm_testimonials .testimonials_inner{
 	width: 100%;
@@ -1214,7 +1179,7 @@ body.loaded .overlay_effect:after{
 	position: relative;
 }
 .shane_tm_testimonials .right .short .author{
-	font-family: "Montserrat";
+	font-family: "Montserrat",sans-serif;
 	font-size: 18px;
 	color: #000;
 	font-weight: 600;
@@ -2041,4 +2006,57 @@ body.modal{overflow: hidden;}
 	.shane_tm_portfolio .portfolio_list ul li{padding: 0px;width: 100%;}
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
+}
+
+
+
+a.insta-button{
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.2em solid #000;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.24em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:700;
+	color:#000;
+	text-align:center;
+	transition: all 0.2s;
+}
+a.insta-button:hover{
+	color:#FFF;
+	background-color:#000;
+}
+@media all and (max-width:30em){
+	a.insta-button{
+		display:block;
+		margin:0.4em auto;
+	}
+}
+
+
+a.insta-button-two{
+	display:inline-block;
+	padding:1.4em 4.8em;
+	border:0.2em solid #fff;
+	margin:0 0.6em 0.6em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:700;
+	font-size: 1.2em;
+	color:#fff;
+	text-align:center;
+	transition: all 0.2s;
+}
+a.insta-button-two:hover{
+	color:#000;
+	background-color:#fff;
+}
+@media all and (max-width:30em){
+	a.insta-button-two{
+		display:block;
+		margin:10em auto;
+	}
 }

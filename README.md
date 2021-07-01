@@ -1,2 +1,4 @@
 # website
-Official Website/Portfolio
+This is the source code of my personal portfolio website.
+
+https://aiquiral.me/
